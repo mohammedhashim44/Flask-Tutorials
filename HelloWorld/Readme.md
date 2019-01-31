@@ -1,29 +1,30 @@
-Tutorial 1 
+# Tutorial 1 
 
-# How to setup : 
+## How to setup : 
 
 - Make sure you have python3 
 - Make sure you have 'pip' installed 
-- Install flask module by this command 'pip3 install Flask' , or 'pip' depend on your system
+- Install flask module by this command `pip3 install Flask` , or 'pip' depend on your system
 
-# The examble :
+## The examble :
 
 This is the simplest app you can build with flask 
 
 You import the module, create new app , the you define the routes .
 
--- 
-
+```python
 @app.route('/')
 def index():
 ...
+```
+
 
 This code means whenever the user go to the path '/', the function will 'index' will be called .
 
 
 To run the program , type :
 
-python3 app.py 
+`python3 app.py`
 
 This will open a server, then you go to the browser and eneter the URL :
 http://localhost:5000/ 
