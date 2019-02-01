@@ -10,17 +10,27 @@
 
 This is the simplest app you can build with flask 
 
+```python
+from flask import Flask 
+
+app = Flask(__name__) 
+``` 
+
 You import the module, create new app , the you define the routes .
 
 ```python
 @app.route('/')
 def index():
-...
+  return "Hello World" 
 ```
 
-
 This code means whenever the user go to the path '/', the function will 'index' will be called .
+When 'index' called , it will just return "Hello World" string to the browser .
 
+Last thing we run the app 
+```python
+app.run() 
+```
 
 To run the program , type :
 
