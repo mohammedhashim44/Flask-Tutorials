@@ -28,9 +28,9 @@ So , in GET the data sent with the URL paramaetars like this , `www.example.com/
 And in POST it just sent with the request itself without showing in the URL `www.example.com/page' 
 
 
-GET : The data transfer throw the URL 
-Pros : It simple
-Cons : It is very bad for sensative data, if the data is too long the URL can't handle it, the webpage with the URL can be saved
+GET : The data transfer throw the URL  
+Pros : It simple  
+Cons : It is very bad for sensative data, if the data is too long the URL can't handle it, the webpage with the URL can be saved  
 
 POST : The data tranfer with the request it self , the data are protected 
 
