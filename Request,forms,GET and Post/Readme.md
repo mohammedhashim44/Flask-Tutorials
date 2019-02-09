@@ -24,21 +24,26 @@ The word you earched in first page transfered to the another page with the URL
 
 But if it was using post it will be like this 'www.google.com/search' 
 
-Con
-GET : The data transfer throw the URL 
-Pros : It simple
-Cons : It is very bad for sensative data, if the data is too long the URL can't handle it, the webpage with the URL can be saved
+So , in GET the data sent with the URL paramaetars like this , `www.example.com/page?name=Name&email=Email .. etc`
+And in POST it just sent with the request itself without showing in the URL `www.example.com/page' 
+
+
+GET : The data transfer throw the URL  
+Pros : It simple  
+Cons : It is very bad for sensative data, if the data is too long the URL can't handle it, the webpage with the URL can be saved  
 
 POST : The data tranfer with the request it self , the data are protected 
 
-* So, just use post if the data is to long , or you are submitting a form with sensative data.Otherwise use GET.
+### So, just use POST if the data is to long , or you are submitting a form with sensative data.Otherwise use GET.
 
 Let's see the examle , In HTMl the form is like this 
 
+```html
 <form method="" action="" >
   <input name="name" type="text" >
   <input type="submit" >
 </form>
+```
 
 The action is page wich the data will be send to when the form is submitted.
 The method is GET or POST , if it's now written the defualt is GET 
